@@ -4,8 +4,8 @@
 ## **Initial Instruction**
 Clone or Download the program and setup colours in your terminal to easy the distinction of the pieces. Below, you will find links to get easily the configuration of your terminal color.
 
-Windows: https://github.com/git-for-windows/git/releases/tag/v2.26.0.windows.1
-OSX: https://stackoverflow.com/questions/1550288/os-x-terminal-colors
+- Windows: https://github.com/git-for-windows/git/releases/tag/v2.26.0.windows.1
+- OSX: https://stackoverflow.com/questions/1550288/os-x-terminal-colors
 
 ## **Executing The Game**
 Para executar o jogo via terminal, deve-se ir até a localização do programa e acessar a pasta bin. Para iniciar o Jogo, digite: 
