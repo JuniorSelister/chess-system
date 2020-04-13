@@ -13,7 +13,7 @@ To run the game through the terminal, you must go in the program location that y
 
 ``` java application/Program ```
 
-The board is presented with the pieces already positioned, ready to play. Following the rules, the white piece starts the game. You can finish the execution of the game pressing *control + c* or *CTRL + c* from your keyboard in the terminal.
+The board is presented with the pieces already positioned, ready to play. Following the rules, the white piece starts the game. You can finish the execution of the game pressing ```control + c``` or ```CTRL + c``` from your keyboard in the terminal.
 
 ## **The Pieces**
 Each opponent has 8 pawns, 2 rooks, 2 knights, 2 bishops, a king and a queen.
@@ -27,13 +27,13 @@ In the board you will find these pieces with the following letters:
 - P = Pawn
 
 ## **King**
-The King can move only one and any position to each side. Except by the Castling Kingside, when the kings move two position to the Rook’s direction and the Rook step by side the king. It’s not allowed two kings stay side by side each-other, it must to have at least one position between the kings.
+The King can move only one and any position to each side. Except by the Castling Kingside, when the king move two position to the Rook’s direction, the Rook step by side the king. It’s not allowed two kings stay side by side each-other, it must to have at least one position between the kings.
 
 The king is the only piece that can not be captured. When the king is attacked, it will happen a xeque and he is forced to leave xeque situation. There’s 3 alternatives to leave xeque.
 
-1 - Move a position that aren’t receiving an attack;
-2 - Capture the piece that are putting him in xeque;
-3 - Put a piece covering the king from an attack in xeque.
+1. Move a position that aren’t receiving an attack;
+2. Capture the piece that are putting him in xeque;
+3. Put a piece covering the king from an attack in xeque.
 
 **Obs¹**: When xeque is being applied by knight, this third option it doesn’t work, because the knight has the ability to jump other pieces;
 **Obs²**: When the king can’t get away from xeque, he is up to Xeque-Mate, then the opponent wins the game. Once the goal of the game is just this: Apply the Xeque-Mate.
@@ -61,9 +61,9 @@ The Pawns can move one step forward, and capture a piece moving in the diagonal.
 
 - Small Castling: The King move two position at Rook’s side and the rook stay at King’s side.
 
-Obs¹: The king can’t be moved in the match and can’t be in Xeque;
-Obs²: Can’t have any piece between the King and Rook, that can’t be moved until the Castling;
-Obs³: It can have any position being attacked between the Rook and King.
+  - **Obs¹**: The king can’t be moved in the match and can’t be in Xeque;
+  - **Obs²**: Can’t have any piece between the King and Rook, that can’t be moved until the Castling;
+  - **Obs³**: It can have any position being attacked between the Rook and King.
 
 ## **Xeque**
 When the king is being attacked, we assume the Xeque. The king is the only piece that can’t be captured. So, when the king is in Xeque, he is obliged toe leave the attack position. Moving out, capturing the piece that is attacking or intercepting the attack, moving a piece forward of the King.
